@@ -1,7 +1,7 @@
 ---
 title: "Expert as Prompt: Emotion-Prototype-Routed Mixture of Experts for Multimodal Sentiment Analysis"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/2025-09-01-expert-as-prompt
 excerpt: 'First-author research paper proposing a novel prototype-routed MoE architecture for sample-adaptive multimodal fusion in sentiment analysis. Under review at Information Fusion (SCI Q1, IF=15.5).'
 ---
