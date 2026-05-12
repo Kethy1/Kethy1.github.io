@@ -12,9 +12,9 @@ redirect_from:
 Education | 教育背景
 ======
 
-**江南大学** (National 211 Project University under Ministry of Education)  
-* **Major**: Computer Science and Technology | **GPA**: 3.74/4.0 | **Major Ranking**: 5/140 (Top 3.6%)
-* **Expected Graduation**: June 2027
+**江南大学** | National 211 Project University under Ministry of Education
+* Major: Computer Science and Technology | GPA: 3.74/4.0 | Major Ranking: 5/140 (Top 3.6%)
+* Expected Graduation: June 2027
 * **Honors & Scholarships**:
   * 江苏省优秀大学生暑期境外学习奖学金 (Top 0.1%)
   * 江南大学综合一等奖学金 (Top 3%)
@@ -168,7 +168,7 @@ Featured Projects | 项目展示
   {% endfor %}</ul>
   
 
-Learning & Mentoring | 学习与指导
+**[Learning & Mentoring | 学习与指导](/learning/)**
 ======
   <ul>{% for post in site.learning reversed %}
     {% include archive-single-cv.html %}
