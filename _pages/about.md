@@ -10,8 +10,6 @@ redirect_from:
 ## 👋 欢迎来到我的主页
 Welcome to my academic homepage!
 
-<img src="{{ site.baseurl }}/images/profile.png" alt="Kexin Wang" style="width:150px; border-radius:50%; display:block; margin:20px auto;">
-
 我是**王可欣** (Kexin Wang)，一名来自[江南大学](https://www.jiangnan.edu.cn/)  [计算机科学与技术](https://ai.jiangnan.edu.cn/)专业的三年级学生，致力于在**多模态学习**、**计算机视觉**和**大语言模型**等领域探索🏄‍♀️。
 
 I am a third-year undergraduate student majoring in Computer Science and Technology at [Jiangnan University](https://www.jiangnan.edu.cn/), a **National 211 Project University** under China's Ministry of Education. With a strong foundation in AI and deep learning, I am passionate about **multimodal fusion**, **computer vision**, and **large language models**.
@@ -63,10 +61,10 @@ I am a third-year undergraduate student majoring in Computer Science and Technol
 🎯 **系统设计与工程化**: 从需求分析、架构设计到原型实现的完整能力  
 🌍 **英语水平与国际视野**: CET6获566分，CET4 594分，新加坡南洋理工大学交流经验
 
-**Deep Learning & Model Development**: Proficient in PyTorch, Transformers; experienced in model optimization and fine-tuning  
-**Academic Writing**: English manuscript writing, LaTeX typesetting, Overleaf collaboration  
-**System Design & Engineering**: Full-cycle capability from requirements analysis to prototype implementation  
-**English and International Experience**: CET6 English 566, CET4 English 594, NTU Singapore exchange
+📊 **Deep Learning & Model Development**: Proficient in PyTorch, Transformers; experienced in model optimization and fine-tuning  
+📖 **Academic Writing**: English manuscript writing, LaTeX typesetting, Overleaf collaboration  
+🎯 **System Design & Engineering**: Full-cycle capability from requirements analysis to prototype implementation  
+🌍 **English and International Experience**: CET6 English 566, CET4 English 594, NTU Singapore exchange
 
 ---
 
@@ -75,7 +73,7 @@ I am a third-year undergraduate student majoring in Computer Science and Technol
 - 📋 **[完整简历 / CV]({{ site.baseurl }}/cv/)** - 教育背景、竞赛获奖、核心技能
 - 📚 **[科研项目 / Research]({{ site.baseurl }}/portfolio/)** - 主要研究项目
 - 📰 **[论文发表 / Publications]({{ site.baseurl }}/publications/)** - 学术论文与研究成果
-- 🏅 **[获奖荣誉 / Honors]({{ site.baseurl }}/teaching/)** - 竞赛奖项与荣誉
+- 🏅 **[学习与成就 / Learning]({{ site.baseurl }}/learning/)** - 竞赛奖项与成就经历
 
 ---
 
