@@ -7,16 +7,16 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
-title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+locale                   : "zh-CN"
+site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "王可欣 Kexin Wang"
+title_separator          : "|"
+name                     : &name "王可欣"
+description              : &description "AI researcher｜多模态融合｜计算机视觉｜江南大学"   # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://kethy1.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Kethy1/Kethy1.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "王可欣 (Kexin Wang)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "江南大学计算机科学系学生｜AI researcher｜多模态融合与计算机视觉｜保研申请中"
+  location         : "Wuxi, Jiangsu, China"
+  employer         : "Jiangnan University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "1033230405@stu.jiangnan.edu.cn" 
 
   # Academic websites
   academia         : # URL

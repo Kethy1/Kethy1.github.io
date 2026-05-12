@@ -1,56 +1,88 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+## 👋 欢迎来到我的主页
+Welcome to my academic homepage!
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<img src="{{ site.baseurl }}/images/profile.png" alt="Kexin Wang" style="width:150px; border-radius:50%; display:block; margin:20px auto;">
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+我是**王可欣** (Kexin Wang)，一名来自[江南大学](https://www.jiangnan.edu.cn/)  [计算机科学与技术](https://ai.jiangnan.edu.cn/)专业的三年级学生，致力于在**多模态学习**、**计算机视觉**和**大语言模型**等领域探索🏄‍♀️。
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I am a third-year undergraduate student majoring in Computer Science and Technology at [Jiangnan University](https://www.jiangnan.edu.cn/), a **National 211 Project University** under China's Ministry of Education. With a strong foundation in AI and deep learning, I am passionate about **multimodal fusion**, **computer vision**, and **large language models**.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+---
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## 🎯 核心亮点 | Key Highlights
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**学术成就**
+- 📄 以第一作者身份完成**中科院1区Top SCI期刊**论文（IF=15.5）
+- 🏆 **GPA 3.74/4.0**，专业排名 **5/140**（前3.6%）
+- 🥇 四项国家级与省级竞赛奖项若干（美国数学建模竞赛国际一等奖(队长)、中国大学生服务外包创新创业大赛全国三等奖等）
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Academic Achievements**
+- 📄 First-author paper submitted to **Information Fusion** (SCI Q1, IF=15.5)
+- 🏆 **GPA 3.74/4.0**, ranked **5/140** (Top 3.6%) in major
+- 🥇 Multiple national and international awards (ICM Meritorious Winner, etc.)
 
-**Markdown generator**
+**研究方向**
+- 🤖 多模态分析 & 融合 & 对齐 
+- 🧠 基于LLM的应用系统设计
+- 👁️ 计算机视觉与边缘计算
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+**Research Areas**
+- 🤖 Multimodal Analysis & Fusion & Alignment
+- 🧠 LLM-based Application Systems
+- 👁️ Computer Vision & Edge Computing
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+---
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+## 🔬 研究特色 | Research Strengths
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+✅ **完整的科研闭环**: 从方法创新、模型训练、系统实验到论文撰写  
+✅ **多领域交叉**: PyTorch深度学习、CLIP微调、LLM应用、机械臂控制  
+✅ **工程化实践**: 主导参与多个项目，其中包括国家级创新训练项目与多个落地项目
+✅ **团队协作与领导力**: 担任项目队长，带领团队完成从调研到交付的全流程
+
+✅ **Complete Research Cycle**: From methodology innovation to model training, comprehensive experiments, and manuscript writing  
+✅ **Interdisciplinary**: Deep learning with PyTorch, CLIP fine-tuning, LLM applications, and robotic control  
+✅ **Engineering Practice**: Involved in multiple projects, including national-level innovation training projects and several on-ground projects
+✅ **Leadership & Teamwork**: Team leader with end-to-end project delivery experience
+
+---
+
+## 💡 科研基础 | What I Can Offer
+
+📊 **深度学习与模型开发**: 熟悉PyTorch、Transformers等框架，具备模型优化与微调经验  
+📖 **学术写作与论文投稿**: 英文论文撰写、LaTeX排版、Overleaf协作经验  
+🎯 **系统设计与工程化**: 从需求分析、架构设计到原型实现的完整能力  
+🌍 **英语水平与国际视野**: CET6获566分，CET4 594分，新加坡南洋理工大学交流经验
+
+**Deep Learning & Model Development**: Proficient in PyTorch, Transformers; experienced in model optimization and fine-tuning  
+**Academic Writing**: English manuscript writing, LaTeX typesetting, Overleaf collaboration  
+**System Design & Engineering**: Full-cycle capability from requirements analysis to prototype implementation  
+**English and International Experience**: CET6 English 566, CET4 English 594, NTU Singapore exchange
+
+---
+
+## 🎓 快速导航 | Quick Navigation
+
+- 📋 **[完整简历 / CV]({{ site.baseurl }}/cv/)** - 教育背景、竞赛获奖、核心技能
+- 📚 **[科研项目 / Research]({{ site.baseurl }}/portfolio/)** - 主要研究项目
+- 📰 **[论文发表 / Publications]({{ site.baseurl }}/publications/)** - 学术论文与研究成果
+- 🏅 **[获奖荣誉 / Honors]({{ site.baseurl }}/teaching/)** - 竞赛奖项与荣誉
+
+---
+
+## 📮 联系我 | Get in Touch
+
+📧 **Email**: 1033230405@stu.jiangnan.edu.cn  
+📧 **Spare Email**: kethy_wang@qq.com
+⌛ **Updated**: 2026-5-12
+
+*保研升学申请中 | *Currently applying for graduate school admission*
